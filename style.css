@@ -1,0 +1,164 @@
+/* button {
+    background-color: rgb(14, 28, 44);
+    height: 2x;
+    text-align: left;
+    text-align: top;
+    text-decoration: rgb(red, green, blue);
+}
+#headerdiv{
+    background-color: rgb(155, 25, 44);
+    height: 100px;
+margin: auto;
+align-content: center;
+text-align: center;
+border: 2px;
+margin: auto;
+margin-top: auto;
+margin-left: auto;
+}
+#al{
+height: 8px;
+background-color: rgba(54, 65, blue, alpha);
+}
+#container{
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+
+}
+#container ul{
+list-style: none;
+font-weight: bold;
+}
+#container ul li{
+    background-color: rgba(54, 65, blue, 55);
+width: 150px;
+text-align: center;
+float: left;
+line-height: normal;
+color: white;
+font-size: 12px;
+position: relative;
+}
+
+#container ul .c:hover{
+    background-color: teal;
+
+}
+#container ul .H:hover {
+    background-color: tomato;
+    border: turquoise;
+    border-radius: 0ex;
+
+
+}
+#container ul .H:hover a{
+    font-size: 12px;
+    line-height: 11px;
+    word-spacing: 15px;
+    color: wheat;
+    text-decoration: none;
+    display: inline-flexbox;
+}
+.H{
+    position: relative;
+text-indent: 12px;
+}
+#img1{
+    margin: auto;
+
+} */
+*
+{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body
+{
+   background-image: url(background.jpg);
+background-size: cover;
+background-position: center;
+
+font-family: sans-serif;
+
+}
+.Menu-bar
+{
+background-color: rgb(10, 100, 0);
+text-align: center;
+
+}
+.Menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: seashell;
+}
+.Menu-bar ul li
+{
+    width: 100px;
+    margin: 15px;
+padding: 15px;
+}
+.Menu-bar ul li a
+{
+    text-decoration: none;
+    color: seashell;
+
+}
+.Active, .Menu-bar ul li :hover
+{
+    background-color: skyblue;
+    border-radius: 3px;
+}
+.Menu-bar .fa{
+    margin: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.Menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+h2{
+    text-align: center;
+color: blue;
+margin: auto;
+}
+ button {
+    background-color: rgb(144, 208, 24);
+    height: 2x;
+    text-align: left;
+    text-align: top;
+    text-decoration: rgb(red, green, blue);
+    font-size: 12px;
+}
+
+h3{
+    color: rgb(14, 100, 10);
+}
+h3 {
+    background-color: rgb(10, 100, 0);
+text-align: center;
+display: inline-flex;
+    list-style: none;
+    color: seashell;
+
+}
+.h3 ul li
+{
+    width: 100px;
+    margin: 15px;
+padding: 15px;
+}
+.h3 ul li {
+    text-decoration: none;
+    color: seashell;
+
+}
